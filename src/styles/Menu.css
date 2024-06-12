@@ -7,18 +7,29 @@
     margin: 10px 10px;
     padding: 0 20px 0 20px;
     width: 50%;
+    height: 37px;
 }
 
 .menu input {
-    height: 25px;
+    height: 31px;
     margin: 10px 10px;
     width: 100px;
+    border-radius: 6%;
+    border-color: #1e887f;
+    color: black;
+}
+
+::placeholder {
+    text-align: match-parent;
 }
 
 #lote-input {
     height: 27px;
     margin: 2px 2px;
-    width: 65px;
+    width: 73px;
+    border-radius: 6%;
+    border-color: #1e887f;
+    color: black;
 }
 
 @media (width < 1056px) {

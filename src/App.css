@@ -53,6 +53,15 @@ button {
   justify-content: space-around;
   margin: 20px 0;
 }
+
+.grafic-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+  width: 100%;
+  overflow-x: auto;
+}
+
 .table-wrapper {
   width: 50%;
   padding: 10px;

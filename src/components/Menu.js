@@ -9,7 +9,7 @@ const Menu = ({ setFilter, lot, setter }) => {
           <button onClick={() => setFilter('near_expiry')}>Próximo ao Vencimento</button>
           <button onClick={() => setFilter('valid')}>Válidos</button>
           <button onClick={() => setFilter('by_lot')}>Por Lote</button>
-          <input placeholder={"Lote"} value={lot} onChange={event =>
+          <input placeholder={"Digite o lote"} value={lot} onChange={event =>
               setter(event.target.value)}/>
       </nav>
   );
