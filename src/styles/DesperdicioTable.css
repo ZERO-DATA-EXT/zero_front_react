@@ -1,0 +1,11 @@
+.desperdicio-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .desperdicio-table th, .desperdicio-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  

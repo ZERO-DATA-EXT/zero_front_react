@@ -1,0 +1,42 @@
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu button {
+    margin: 10px 10px;
+    padding: 0 20px 0 20px;
+    width: 50%;
+}
+
+.menu input {
+    height: 25px;
+    margin: 10px 10px;
+    width: 100px;
+}
+
+#lote-input {
+    height: 27px;
+    margin: 2px 2px;
+    width: 65px;
+}
+
+@media (width < 1056px) {
+    .menu input {
+        display: flex;
+        position: absolute;
+        width: 56px;
+        left: 495px;
+        top: 160px;
+    }
+}
+
+@media (width < 990px) {
+    #lote-input {
+        display: flex;
+        position: relative;
+        right: 77px;
+        top: 40px;
+        width: 56px;
+    }
+}

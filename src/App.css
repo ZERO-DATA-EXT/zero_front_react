@@ -1,0 +1,113 @@
+.App {
+  font-family: "Dosis", sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+button {
+  width: 4rem;
+  height: 2rem;
+  font-size: 10px;
+  cursor: pointer;
+  background-color: rgb(118, 207, 200);
+  color: #ffffff;
+  border-radius: 6%;
+  border-color: transparent;
+}
+
+#usericon {
+  margin: 10px;
+}
+
+#zeroBTN {
+  font-family: "Tiny5", sans-serif;
+  background-color: transparent;
+  color: #1e887f;
+  font-size: 34px;
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+}
+
+.title-filters-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tables-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+.table-wrapper {
+  width: 50%;
+  padding: 10px;
+}
+
+.desperdicio-table, .item-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.desperdicio-table th, .desperdicio-table td, .item-table th, .item-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.desperdicio-table th, .item-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #f5f0e5;
+  border-bottom: 3px solid #ece4d1;
+}
+
+.open-modal-btn {
+  background-color: rgb(118, 207, 200);
+  color: #ffffff;
+  border-radius: 6%;
+  border-color: transparent;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.topbar-content {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 30px;
+  width: auto;
+  margin-right: 10px;
+}
+
+.user-name {
+  margin-right: 10px;
+}
+
+.user-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
